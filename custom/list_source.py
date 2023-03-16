@@ -14,8 +14,6 @@ def main(argv):
         sys.exit(2)
 
     solution_file = argv[1]
-    print(solution_file)
-    
     solution = vcproj.solution.parse(solution_file)
     for project_file in solution.project_files():
         print(project_file)
