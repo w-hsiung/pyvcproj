@@ -237,3 +237,6 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# VS Code
+.vscode/
